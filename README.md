@@ -34,7 +34,7 @@ Assigning X axsis\
 
 ### DH-Parameter Method
 We have used DH Parameter Method it is a shortcut for finding homogeneous transformation matrices.\
-The following steps are followed to get the final transformation matrix:\
+The following steps are followed to get the final transformation matrix:
 1) Assign each joint of the robot a frame using the rules for DH-Frame assignment.
 2) Create DH-Tabel for all the joints, remenber the number of rows in a DH-Table is n-1 where "n" is the number of joints.
 3) Fill the DH table with approriate values and using the transformation matrix given below find the tranformation for each joint.
