@@ -20,7 +20,18 @@ be 0 to obtain a solution.
 5. Robot self collision is not considered i.e. collision with obstacle is only taken under
 consideration for the scope of this project.
 6. The Path Planning module is not available in the V-rep version and thus, path planning is done using forward kinematics by selection of appropriate way points.
-### Forward Kinematics
+## Forward Kinematics
+### What is Forward Kinematics?
+Forward kinematics refers to the use of the kinematic equations of a robot to compute the position of the end-effector from specified values for the joint parameters.
+### DH-Parameter Method
+We have used DH Parameter Method it is a shortcut for finding homogeneous transformation matrices.\
+The following steps are followed to get the final transformation matrix:\
+1) Assign each joint of the robot a frame using the rules for DH-Frame assignment.
+2) Create DH-Tabel for all the joints, remenber the number of rows in a DH-Table is n-1 where "n" is the number of joints.
+3) Fill the DH table with approriate values and using the transformation matrix given below find the tranformation for each joint.
+![Forward_Kinematics_Matrix](https://user-images.githubusercontent.com/93336207/140411698-d62b2776-b235-40ef-8f07-f6e34cef7eef.gif)
+4) Combine the trandformation to get the location at any joint / endeffector.
+
 
 ### Inverse Kinematics
 
