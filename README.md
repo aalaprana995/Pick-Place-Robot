@@ -23,6 +23,15 @@ consideration for the scope of this project.
 ## Forward Kinematics
 ### What is Forward Kinematics?
 Forward kinematics refers to the use of the kinematic equations of a robot to compute the position of the end-effector from specified values for the joint parameters.
+### Axsis Assignment
+Assigning  Z axsis
+![Screenshot from 2021-11-04 16-18-31](https://user-images.githubusercontent.com/93336207/140413715-f2085558-3850-488c-b1b3-62a08349a82a.png)
+
+
+Assigning X axsis\
+![Screenshot from 2021-11-04 16-14-33](https://user-images.githubusercontent.com/93336207/140413475-2ee7c825-7154-4502-99f9-3ff90a238075.png)
+ 
+
 ### DH-Parameter Method
 We have used DH Parameter Method it is a shortcut for finding homogeneous transformation matrices.\
 The following steps are followed to get the final transformation matrix:\
