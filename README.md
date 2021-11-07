@@ -56,13 +56,14 @@ We now modify our angles and the forward kinematic transformation matrix. Now 0T
 Using the translational components we can use y and x component to find &#920;1 :\
 ![Screenshot from 2021-11-07 17-38-33](https://user-images.githubusercontent.com/93336207/140664475-d2954ab4-199c-4ca6-91ff-4b918b7c2d79.png)
 
-**&#920;2 Calculation**\
+**&#920;2 Calculation and &#920;4 Calculation**\
 Using  &#920;1 and z and x from the transformation matrix elbow.
 ![Screenshot from 2021-11-07 17-51-00](https://user-images.githubusercontent.com/93336207/140664868-aa876121-b26e-46cd-8349-3359d68588ae.png)
 ![Screenshot from 2021-11-07 17-53-19](https://user-images.githubusercontent.com/93336207/140664949-90db0bae-acb6-4b99-941a-e786d4ed906c.png)
+
 **&#920;3 Calculation**\
-It is assumed to be locked so 0\
-**&#920;4 Calculation**\
+It is assumed to be locked so 0
+
 **&#920;5 Calculation**\
 **&#920;6 Calculation**\
 **&#920;7 Calculation**
