@@ -64,9 +64,12 @@ Using  &#920;1 and z and x from the transformation matrix elbow.
 **&#920;3 Calculation**\
 It is assumed to be locked so 0
 
-**&#920;5 Calculation**\
-**&#920;6 Calculation**\
-**&#920;7 Calculation**
+**&#920;5 Calculation , &#920;6 Calculation and &#920;7 Calculation**\
+Using the rotational part of wrist matrix we can calculate all the angles\
+![Screenshot from 2021-11-07 18-03-05](https://user-images.githubusercontent.com/93336207/140665189-c3806e5e-5872-454f-8dac-a4a3187504f2.png)
+![Screenshot from 2021-11-07 17-58-26](https://user-images.githubusercontent.com/93336207/140665129-c11d1caf-9f61-4323-8f51-aa7b224ac441.png)
+
+
 ## Vrep Visualization
 https://user-images.githubusercontent.com/93336207/139558479-d25b162e-7534-4f81-a971-b293c5c8e7e2.mp4
 
