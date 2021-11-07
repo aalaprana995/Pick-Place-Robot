@@ -43,6 +43,7 @@ The following steps are followed to get the final transformation matrix:
 
 
 ### Inverse Kinematics
+Inverse kinematics is a mathematical process used to calculate the joint positions that are needed to place a robot’s end effector at a specific position and orientation (also known as its “pose”).
 
 ## Vrep Visualization
 https://user-images.githubusercontent.com/93336207/139558479-d25b162e-7534-4f81-a971-b293c5c8e7e2.mp4
