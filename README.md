@@ -43,8 +43,29 @@ The following steps are followed to get the final transformation matrix:
 
 
 ### Inverse Kinematics
-Inverse kinematics is a mathematical process used to calculate the joint positions that are needed to place a robot’s end effector at a specific position and orientation (also known as its “pose”).
+Inverse kinematics is a mathematical process used to calculate the joint positions that are needed to place a robot’s end effector at a specific position and orientation (also known as its “pose”).\
+In case of Baxter we cannot find Analytical Inverse Kinematic Solution, thus we make few simplifications ie we lock joint 3, consider the length l5 to be 0 and combine length l2.l3 to form a new length lh.
+We now modify our angles and the forward kinematic transformation matrix. Now 0T6 is equivalent to 0T4 and on observation it is in terms of &#920;1,&#920;2 and &#920;4. Thus we can use 0T4 for calculatinhg them.\
+**New Transformation matrix**
 
+![Screenshot from 2021-11-07 17-40-42](https://user-images.githubusercontent.com/93336207/140664540-2ba72e8a-51b1-4b7e-aeea-bf1c5affc7f1.png)
+
+![elbow](https://user-images.githubusercontent.com/93336207/140664541-8f2a6dcd-e4da-4b07-9ebe-6b1cb9b96ad4.png)
+
+**&#920;1 Calculation**\
+Using the translational components we can use y and x component to find &#920;1 :\
+![Screenshot from 2021-11-07 17-38-33](https://user-images.githubusercontent.com/93336207/140664475-d2954ab4-199c-4ca6-91ff-4b918b7c2d79.png)
+
+**&#920;2 Calculation**\
+Using  &#920;1 and z and x from the transformation matrix elbow.
+![Screenshot from 2021-11-07 17-51-00](https://user-images.githubusercontent.com/93336207/140664868-aa876121-b26e-46cd-8349-3359d68588ae.png)
+![Screenshot from 2021-11-07 17-53-19](https://user-images.githubusercontent.com/93336207/140664949-90db0bae-acb6-4b99-941a-e786d4ed906c.png)
+**&#920;3 Calculation**\
+It is assumed to be locked so 0\
+**&#920;4 Calculation**\
+**&#920;5 Calculation**\
+**&#920;6 Calculation**\
+**&#920;7 Calculation**
 ## Vrep Visualization
 https://user-images.githubusercontent.com/93336207/139558479-d25b162e-7534-4f81-a971-b293c5c8e7e2.mp4
 
